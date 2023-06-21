@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B75DC9C22A40A7BF0081D51D /* AOKSystemCodeChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75DC9C12A40A7BF0081D51D /* AOKSystemCodeChallengeApp.swift */; };
+		B75DC9C42A40A7BF0081D51D /* RepositoriesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75DC9C32A40A7BF0081D51D /* RepositoriesListView.swift */; };
+		B75DC9C62A40A7C10081D51D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B75DC9C52A40A7C10081D51D /* Assets.xcassets */; };
+		B75DC9CA2A40A7C10081D51D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B75DC9C92A40A7C10081D51D /* Preview Assets.xcassets */; };
+		B75DC9D52A40AC6A0081D51D /* GithubApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75DC9D42A40AC6A0081D51D /* GithubApiClient.swift */; };
+		B75DC9D72A40ACB30081D51D /* RepositoryDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75DC9D62A40ACB30081D51D /* RepositoryDTO.swift */; };
+		B75DC9DF2A40AFF10081D51D /* RepositoriesListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75DC9DE2A40AFF10081D51D /* RepositoriesListViewModelTests.swift */; };
+		B75DC9E62A40B00F0081D51D /* RepositoriesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75DC9E52A40B00F0081D51D /* RepositoriesListViewModel.swift */; };
+		B75DC9E82A40B15C0081D51D /* RepositoriesListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75DC9E72A40B15C0081D51D /* RepositoriesListItemView.swift */; };
+		B75DC9EC2A41901C0081D51D /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75DC9EB2A41901C0081D51D /* Endpoint.swift */; };
+		B75DC9F12A419EB10081D51D /* RepositoryItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75DC9F02A419EB10081D51D /* RepositoryItemViewModel.swift */; };
+		B75DC9F32A41E3740081D51D /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75DC9F22A41E3740081D51D /* Extentions.swift */; };
+		B75DC9F52A41E6350081D51D /* RepositoryItemViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75DC9F42A41E6350081D51D /* RepositoryItemViewModelTests.swift */; };
+		B75DC9F92A422CF70081D51D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75DC9F82A422CF70081D51D /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B75DC9E02A40AFF10081D51D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B75DC9B62A40A7BF0081D51D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B75DC9BD2A40A7BF0081D51D;
+			remoteInfo = AOKSystemCodeChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B75DC9BE2A40A7BF0081D51D /* AOKSystemCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AOKSystemCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B75DC9C12A40A7BF0081D51D /* AOKSystemCodeChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOKSystemCodeChallengeApp.swift; sourceTree = "<group>"; };
+		B75DC9C32A40A7BF0081D51D /* RepositoriesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesListView.swift; sourceTree = "<group>"; };
+		B75DC9C52A40A7C10081D51D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B75DC9C72A40A7C10081D51D /* AOKSystemCodeChallenge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AOKSystemCodeChallenge.entitlements; sourceTree = "<group>"; };
+		B75DC9C92A40A7C10081D51D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B75DC9D42A40AC6A0081D51D /* GithubApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubApiClient.swift; sourceTree = "<group>"; };
+		B75DC9D62A40ACB30081D51D /* RepositoryDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryDTO.swift; sourceTree = "<group>"; };
+		B75DC9DC2A40AFF10081D51D /* AOKSystemCodeChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AOKSystemCodeChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B75DC9DE2A40AFF10081D51D /* RepositoriesListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesListViewModelTests.swift; sourceTree = "<group>"; };
+		B75DC9E52A40B00F0081D51D /* RepositoriesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesListViewModel.swift; sourceTree = "<group>"; };
+		B75DC9E72A40B15C0081D51D /* RepositoriesListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesListItemView.swift; sourceTree = "<group>"; };
+		B75DC9EB2A41901C0081D51D /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		B75DC9F02A419EB10081D51D /* RepositoryItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryItemViewModel.swift; sourceTree = "<group>"; };
+		B75DC9F22A41E3740081D51D /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		B75DC9F42A41E6350081D51D /* RepositoryItemViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryItemViewModelTests.swift; sourceTree = "<group>"; };
+		B75DC9F82A422CF70081D51D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B75DC9BB2A40A7BF0081D51D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75DC9D92A40AFF10081D51D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B75DC9B52A40A7BF0081D51D = {
+			isa = PBXGroup;
+			children = (
+				B75DC9C02A40A7BF0081D51D /* AOKSystemCodeChallenge */,
+				B75DC9DD2A40AFF10081D51D /* AOKSystemCodeChallengeTests */,
+				B75DC9BF2A40A7BF0081D51D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B75DC9BF2A40A7BF0081D51D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B75DC9BE2A40A7BF0081D51D /* AOKSystemCodeChallenge.app */,
+				B75DC9DC2A40AFF10081D51D /* AOKSystemCodeChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B75DC9C02A40A7BF0081D51D /* AOKSystemCodeChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				B75DC9D32A40A8860081D51D /* Models */,
+				B75DC9D22A40A86B0081D51D /* Infrastructure */,
+				B75DC9D02A40A8420081D51D /* Views */,
+				B75DC9D12A40A8540081D51D /* ViewModels */,
+				B75DC9C12A40A7BF0081D51D /* AOKSystemCodeChallengeApp.swift */,
+				B75DC9C52A40A7C10081D51D /* Assets.xcassets */,
+				B75DC9C72A40A7C10081D51D /* AOKSystemCodeChallenge.entitlements */,
+				B75DC9C82A40A7C10081D51D /* Preview Content */,
+			);
+			path = AOKSystemCodeChallenge;
+			sourceTree = "<group>";
+		};
+		B75DC9C82A40A7C10081D51D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B75DC9C92A40A7C10081D51D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B75DC9D02A40A8420081D51D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B75DC9C32A40A7BF0081D51D /* RepositoriesListView.swift */,
+				B75DC9E72A40B15C0081D51D /* RepositoriesListItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B75DC9D12A40A8540081D51D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B75DC9E52A40B00F0081D51D /* RepositoriesListViewModel.swift */,
+				B75DC9F02A419EB10081D51D /* RepositoryItemViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B75DC9D22A40A86B0081D51D /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				B75DC9D42A40AC6A0081D51D /* GithubApiClient.swift */,
+				B75DC9EB2A41901C0081D51D /* Endpoint.swift */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		B75DC9D32A40A8860081D51D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B75DC9D62A40ACB30081D51D /* RepositoryDTO.swift */,
+				B75DC9F82A422CF70081D51D /* Constants.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B75DC9DD2A40AFF10081D51D /* AOKSystemCodeChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B75DC9F22A41E3740081D51D /* Extentions.swift */,
+				B75DC9DE2A40AFF10081D51D /* RepositoriesListViewModelTests.swift */,
+				B75DC9F42A41E6350081D51D /* RepositoryItemViewModelTests.swift */,
+			);
+			path = AOKSystemCodeChallengeTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B75DC9BD2A40A7BF0081D51D /* AOKSystemCodeChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B75DC9CD2A40A7C10081D51D /* Build configuration list for PBXNativeTarget "AOKSystemCodeChallenge" */;
+			buildPhases = (
+				B75DC9BA2A40A7BF0081D51D /* Sources */,
+				B75DC9BB2A40A7BF0081D51D /* Frameworks */,
+				B75DC9BC2A40A7BF0081D51D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AOKSystemCodeChallenge;
+			productName = AOKSystemCodeChallenge;
+			productReference = B75DC9BE2A40A7BF0081D51D /* AOKSystemCodeChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B75DC9DB2A40AFF10081D51D /* AOKSystemCodeChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B75DC9E22A40AFF10081D51D /* Build configuration list for PBXNativeTarget "AOKSystemCodeChallengeTests" */;
+			buildPhases = (
+				B75DC9D82A40AFF10081D51D /* Sources */,
+				B75DC9D92A40AFF10081D51D /* Frameworks */,
+				B75DC9DA2A40AFF10081D51D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B75DC9E12A40AFF10081D51D /* PBXTargetDependency */,
+			);
+			name = AOKSystemCodeChallengeTests;
+			productName = AOKSystemCodeChallengeTests;
+			productReference = B75DC9DC2A40AFF10081D51D /* AOKSystemCodeChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B75DC9B62A40A7BF0081D51D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B75DC9BD2A40A7BF0081D51D = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					B75DC9DB2A40AFF10081D51D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = B75DC9BD2A40A7BF0081D51D;
+					};
+				};
+			};
+			buildConfigurationList = B75DC9B92A40A7BF0081D51D /* Build configuration list for PBXProject "AOKSystemCodeChallenge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B75DC9B52A40A7BF0081D51D;
+			productRefGroup = B75DC9BF2A40A7BF0081D51D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B75DC9BD2A40A7BF0081D51D /* AOKSystemCodeChallenge */,
+				B75DC9DB2A40AFF10081D51D /* AOKSystemCodeChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B75DC9BC2A40A7BF0081D51D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75DC9CA2A40A7C10081D51D /* Preview Assets.xcassets in Resources */,
+				B75DC9C62A40A7C10081D51D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75DC9DA2A40AFF10081D51D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B75DC9BA2A40A7BF0081D51D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75DC9D52A40AC6A0081D51D /* GithubApiClient.swift in Sources */,
+				B75DC9E62A40B00F0081D51D /* RepositoriesListViewModel.swift in Sources */,
+				B75DC9D72A40ACB30081D51D /* RepositoryDTO.swift in Sources */,
+				B75DC9C42A40A7BF0081D51D /* RepositoriesListView.swift in Sources */,
+				B75DC9E82A40B15C0081D51D /* RepositoriesListItemView.swift in Sources */,
+				B75DC9C22A40A7BF0081D51D /* AOKSystemCodeChallengeApp.swift in Sources */,
+				B75DC9EC2A41901C0081D51D /* Endpoint.swift in Sources */,
+				B75DC9F12A419EB10081D51D /* RepositoryItemViewModel.swift in Sources */,
+				B75DC9F92A422CF70081D51D /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75DC9D82A40AFF10081D51D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75DC9F32A41E3740081D51D /* Extentions.swift in Sources */,
+				B75DC9DF2A40AFF10081D51D /* RepositoriesListViewModelTests.swift in Sources */,
+				B75DC9F52A41E6350081D51D /* RepositoryItemViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B75DC9E12A40AFF10081D51D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B75DC9BD2A40A7BF0081D51D /* AOKSystemCodeChallenge */;
+			targetProxy = B75DC9E02A40AFF10081D51D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B75DC9CB2A40A7C10081D51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B75DC9CC2A40A7C10081D51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B75DC9CE2A40A7C10081D51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AOKSystemCodeChallenge/AOKSystemCodeChallenge.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AOKSystemCodeChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = SCC9AQHTAU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.adesso-mobile.AOKSystemCodeChallenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B75DC9CF2A40A7C10081D51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AOKSystemCodeChallenge/AOKSystemCodeChallenge.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AOKSystemCodeChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = SCC9AQHTAU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.adesso-mobile.AOKSystemCodeChallenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B75DC9E32A40AFF10081D51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SCC9AQHTAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.adesso-mobile.AOKSystemCodeChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AOKSystemCodeChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AOKSystemCodeChallenge";
+			};
+			name = Debug;
+		};
+		B75DC9E42A40AFF10081D51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SCC9AQHTAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.adesso-mobile.AOKSystemCodeChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AOKSystemCodeChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AOKSystemCodeChallenge";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B75DC9B92A40A7BF0081D51D /* Build configuration list for PBXProject "AOKSystemCodeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B75DC9CB2A40A7C10081D51D /* Debug */,
+				B75DC9CC2A40A7C10081D51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B75DC9CD2A40A7C10081D51D /* Build configuration list for PBXNativeTarget "AOKSystemCodeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B75DC9CE2A40A7C10081D51D /* Debug */,
+				B75DC9CF2A40A7C10081D51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B75DC9E22A40AFF10081D51D /* Build configuration list for PBXNativeTarget "AOKSystemCodeChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B75DC9E32A40AFF10081D51D /* Debug */,
+				B75DC9E42A40AFF10081D51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B75DC9B62A40A7BF0081D51D /* Project object */;
+}
