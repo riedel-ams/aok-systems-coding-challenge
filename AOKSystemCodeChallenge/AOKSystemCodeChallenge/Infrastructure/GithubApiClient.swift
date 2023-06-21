@@ -68,7 +68,6 @@ class GithubApiClient: GithubApiClientProtocol {
             )
         )
         .print()
-        .filter { !$0.isEmpty }
         .eraseToAnyPublisher()
     }
     
